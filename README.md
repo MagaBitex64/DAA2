@@ -21,8 +21,3 @@ assignment2-insertionsort/
 - Build: `mvn clean package`
 - Run tests: `mvn test`
 - Run benchmark CLI: `java -jar target/assignment2-insertionsort-1.0.jar --help` or run via `mvn exec:java` if you prefer.
-
-
-## Notes
-- BenchmarkRunner outputs CSV files to `docs/performance-data/` and prints PerformanceTracker summary.
-- See `docs/analysis-report.md` for the analysis report template you can edit and export to PDF.
