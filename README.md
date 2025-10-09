@@ -16,10 +16,6 @@ assignment2-insertionsort/
 ├── docs/
 │ ├── analysis-report.pdf
 │ └── performance-plots/
-│ ├── comparisons-vs-n.png
-│ ├── swaps-vs-n.png
-│ ├── accesses-vs-n.png
-│ └── time-vs-n.png
 ├── README.md
 └── pom.xml
 ```
