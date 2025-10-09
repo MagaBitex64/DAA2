@@ -4,6 +4,7 @@
 Repository scaffold for Assignment 2 — Insertion Sort implementation with metrics, CLI benchmark runner, unit tests, and analysis report template.
 
 ## Structure
+```
 assignment2-insertionsort/
 ├── src/
 │ ├── main/java/
@@ -21,7 +22,8 @@ assignment2-insertionsort/
 │ └── time-vs-n.png
 ├── README.md
 └── pom.xml
-##
+```
+
 ## Build & Run
 - Build: `mvn clean package`
 - Run tests: `mvn test`
