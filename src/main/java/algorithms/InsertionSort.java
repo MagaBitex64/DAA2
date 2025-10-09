@@ -15,7 +15,7 @@ public class InsertionSort {
     public InsertionSort() { this(new Config()); }
     public InsertionSort(Config config) { this.config = Objects.requireNonNull(config); }
 
-    public void sort(int[] a, PerformanceTracker tracker) {
+    public  void sort(int[] a, PerformanceTracker tracker) {
         if (a == null) throw new IllegalArgumentException("Input array is null");
         if (tracker == null) throw new IllegalArgumentException("PerformanceTracker is null");
 
