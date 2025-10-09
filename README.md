@@ -5,15 +5,20 @@ Repository scaffold for Assignment 2 — Insertion Sort implementation with metr
 
 ## Structure
 assignment2-insertionsort/
-├── src/main/java/
-│   ├── algorithms/InsertionSort.java
-│   ├── metrics/PerformanceTracker.java
-│   └── cli/BenchmarkRunner.java
-├── src/test/java/
-│   └── algorithms/InsertionSortTest.java
+├── src/
+│ ├── main/java/
+│ │ ├── algorithms/InsertionSort.java
+│ │ ├── metrics/PerformanceTracker.java
+│ │ └── cli/BenchmarkRunner.java
+│ └── test/java/
+│ └── algorithms/InsertionSortTest.java
 ├── docs/
-│   ├── analysis-report.pdf
-│   └── performance-plots/
+│ ├── analysis-report.pdf
+│ └── performance-plots/
+│ ├── comparisons-vs-n.png
+│ ├── swaps-vs-n.png
+│ ├── accesses-vs-n.png
+│ └── time-vs-n.png
 ├── README.md
 └── pom.xml
 
